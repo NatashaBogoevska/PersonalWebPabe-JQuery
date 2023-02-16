@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="web page, design, 
+        personal, blog">  
+        <meta name="description" content="This website will
+        let you learn more about me and my favorite things"> 
+        
+        <title>Welcome to my page</title>
+        <link rel="stylesheet" type="text/css" href="blog.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="blog.js"></script>
+        
+    </head>
+
+    <body>
+        <div>
+            <ul class="lista">
+                <div>
+                <li><h3>Natasha <br> Bogoevska</h3></li>
+                </div>
+                <nav>
+                    <li><a href="personal.html">Home</a></li>
+                    <!--<li><a href="aboutme.html">About me</a></li>-->
+                    <li><a href="favoritethings.html">Favorite things</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="impressions.html">Impressions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                 </nav>
+            </ul>
+        </div>
+
+        <div class="slika">
+            <div class="boja">
+                <h1>Blog</h1>
+            </div>
+        </div>
+
+        <div class="vtora">
+            <div>Astronomy</div>
+            <h4>Why are small black holes more dangerous than big ones?</h4>
+            <p>
+                Why would someone falling into a stellar-mass black hole be spaghettified, but someone crossing the event horizon of a supermassive black hole would not feel much discomfort?
+                First, what exactly causes spaghettification? This process is the result of tidal forces, or the difference in gravity between two points.
+                As it turns out, there is a relatively simple equation that describes the tidal acceleration that a body of length d would feel, based on its distance from a given object with mass M: a = 2GMd/R3, where a is the tidal acceleration, G is the gravitational constant, and R is the body’s distance to the center of the object (with mass M).
+                For a baseline, let’s calculate the tidal acceleration that an approximately 6-foot-tall (1.8 meters) person feels between their head and their feet while on the surface of Earth. Plugging in the numbers, it comes out to about 0.0000055 meter/second2. Now, how would tidal forces affect that same person falling into a stellar-mass black hole of 1 solar mass and an event horizon radius of 1.8 miles (2.9 kilometers), versus that same person falling into a supermassive black hole that is 100 million solar masses with an event horizon radius of 183 million miles (295 million km)?
+                In the former case, the tidal acceleration is around 19.6 billion m/s2. And for the supermassive black hole, it’s only about 0.0000019 m/s2.
+                So, for a person falling feet first into a stellar-mass black hole, the tidal forces stretch them out into a long, thin line resembling spaghetti. But when falling into a supermassive black hole, the tidal acceleration they feel is even smaller than what we experience on Earth!
+            </p>
+            <div>2023-02-17</div>
+        </div>
+
+        <div class="prva">
+            <div>Travelling</div>
+            <h4>How To Travel In Switzerland Like A Pro</h4>
+            <p>
+                Planning a trip to Switzerland? A place to consider is St. Moritz.<br>
+                St. Moritz is a luxury resort town in Switzerland’s alps! Besides some of the best ski and snowboarding slopes in the world (two winter olympics were held there)<br>
+                St. Moritz has such a cute town with wooden houses, cozey cafes, a beautiful lake and a forest all around it. 
+                A must do when you visit is going on a carriage ride through the forest under blankets, when my family and I did it,<br>
+                I felt I was a princess in a Disney movie!<br>
+                Even 5 years later I remember that night as through it were yesterday. 
+                When we arrived we took the train from Zurich and it was the most scenic beautiful train ride I’ve ever been on.<br>
+                The train tracks went through winding roads and forests and mountains and it allowed me to see so much of Switzerland before arriving to St Moritz.<br>
+                Taking the train is also a cost efficient way to get there.
+            </p>
+            <div>2023-02-15</div>
+        </div><br>
+
+        <div id="nova">
+            <p id="objava"></p>
+        </div>
+
+        <div class="center">
+        <h4>Feel free to write your text here</h4>
+        <form method="post" action="#">
+        <label>Choose a theme</label>
+        <select id="tema" name="theme">
+            <option>Music</option>
+            <option>Travelling</option>
+            <option>Astronomy</option>
+        </select>
+        <input id="naslov" type="text">
+        <input id="data" type="date">
+        </form>
+        <div>
+        <textarea id="post" type="textarea" cols="150" rows="10" placeholder="Write a post.."></textarea>
+            <button id="submit">Submit</button>
+        </div>
+        </div>
+        
+    </body>
+    </html>

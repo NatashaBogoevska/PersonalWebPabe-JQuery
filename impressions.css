@@ -1,0 +1,126 @@
+html {
+    background-color:rgba(207, 252, 221, 0.751);
+    overflow-x: hidden;
+}
+.noscroll {
+    overflow: hidden;
+}
+.lista {
+    list-style-type:none;
+    overflow:hidden;
+    margin-top: -8px;
+    border-top:4px solid;
+    margin-right:-10px;
+    margin-left:-10px;
+}
+
+h3 {
+    padding:6px;
+    border:solid 2px;
+    border-style: dotted;
+}
+li {
+    float:left;
+    text-align: center;
+    padding:15px;
+    font-size:12.5pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    float:right; 
+    margin-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    color:rgb(74, 99, 68);
+}
+
+.active {
+    color:rgb(74, 99, 68);
+}
+
+.column {
+    float:left;
+    width:24%;
+    padding:2px;
+}
+
+.row::after {
+    content: "";
+    clear:both;
+    display:table;
+}
+
+.pozicija {
+    margin-top:-15pt;
+    position:relative;
+    margin-right:-20mm;
+    margin-left: -7mm;
+}
+
+/*rgb(250, 245, 238);
+}*/
+
+footer {
+    position:relative;
+    margin-bottom: -7px;
+    margin-right: -7px;
+    margin-left:-8px;
+    border-bottom: 5px solid;
+    
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.slika {
+    background-image: url("pictures/northern_lightss.jpg");
+    background-repeat: no-repeat;
+    height:13cm;
+}
+.boja {
+    background-color:white;
+    position:relative;
+    padding:2cm;
+    top:3cm;
+    float:right;
+    border:solid 1px;
+}
+
+fieldset {
+    background-color:white;
+    margin-top:5mm;
+    margin-right:7cm;
+    margin-left:7cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+    border:solid 1px;
+    border-color: black;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+input{
+    margin-bottom:5mm;
+    margin-right:2mm;
+}
+
+img {
+    margin-left:1cm;
+    margin-right: 1cm;
+}
+
+input[type=submit]
+{
+    background-color:rgb(172, 203, 164);
+    border-radius: 3px;
+    border:none;
+}

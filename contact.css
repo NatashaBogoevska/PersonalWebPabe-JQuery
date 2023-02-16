@@ -1,0 +1,95 @@
+html {
+    background-color:rgb(239, 216, 216);
+    overflow-x: hidden;
+}
+.noscroll {
+    overflow: hidden;
+}
+.lista {
+    list-style-type:none;
+    overflow:hidden;
+    margin-top: -8px;
+    border-top:4px solid;
+    margin-right:-10px;
+    margin-left:-10px;
+}
+
+
+
+h3 {
+    padding:6px;
+    border:solid 2px;
+    border-style: dotted;
+}
+li {
+    float:left;
+    text-align: center;
+    padding:15px;
+    font-size:12.5pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    float:right; 
+    margin-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    color:rgb(143, 110, 110);
+}
+
+.active {
+    color:rgb(143, 110, 110);
+}
+
+.pozicija {
+    margin-top:-15pt;
+    position:relative;
+    margin-right:-20mm;
+    margin-left: -10mm;
+}
+
+/*rgb(250, 245, 238);
+}*/
+
+footer {
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    border-bottom: 5px solid;
+    margin-left:-8px;
+    margin-right: -2px;
+    
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*.pozadina {
+    background-image: url("flowers2.jpg");
+    width:100%;
+    margin:auto;
+    height:15cm;
+    background-repeat: no-repeat;
+}*/
+
+.boja {
+    background-color:rgb(198, 146, 146);
+    position:relative;
+    padding:4cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:solid 1px;
+}
+
+p {
+    display:inline-block;
+    font-size: 13pt;
+}
+

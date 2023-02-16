@@ -1,0 +1,121 @@
+html {
+    background-color:rgb(246, 235, 220);
+    overflow-x: hidden;
+}
+
+.lista {
+    list-style-type:none;
+    overflow:hidden;
+    margin-top: -8px;
+    border-top:4px solid;
+    margin-right:-10px;
+    margin-left:-10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding:6px;
+    border:solid 2px;
+    border-style: dotted;
+}
+.elementi {
+    float:left;
+    text-align: center;
+    padding:15px;
+    font-size:12.5pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    float:right; 
+    margin-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    color:rgb(57, 69, 144);
+}
+
+.active {
+    color:rgb(57, 69, 144);
+}
+
+.slika {
+    background-image: url("pictures/starrynight1.jpg");
+    height:15cm;
+}
+
+.boja {
+    position:relative;
+    top:10cm;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:solid 1px;
+}
+
+.film {
+    float:left;
+    margin-top: 5%;
+    background-color: white;
+    border:solid 1px;
+    margin-bottom: 10px;
+    margin-left:7%;
+    margin-right:3%;
+}
+
+img {
+    margin-left:-5%;
+}
+
+.dec {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+}
+
+p {
+    text-align: center;
+}
+
+.serija {
+    float:left;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:3%;
+    background-color: white;
+    border:solid 1px;
+}
+
+.down {
+    margin-top:5mm;
+}
+
+.pesna {
+    float:left;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:3%;
+    background-color: white;
+    border:solid 1px;
+    padding-top:2.7cm;
+    padding-bottom:2.8cm;
+    padding-right:1cm;
+    padding-left:1cm;
+}
+
+.popup-overlay {
+    visibility:hidden;
+    }
+    
+    .popup-content {
+    visibility:hidden;
+    }
